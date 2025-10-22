@@ -10,8 +10,6 @@ public class SpringdemoApplication {
 	public static void main(String[] args) {
 		ApplicationContext context=SpringApplication.run(SpringdemoApplication.class, args);
 		Alien obj=context.getBean(Alien.class);
-		obj.code();
-		
+		obj.code();	
 	}
-
 }
