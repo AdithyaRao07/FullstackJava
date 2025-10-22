@@ -1,0 +1,5 @@
+This is the 1st project while learning Spring 
+I Created a simple Spring Boot project and learnt how dependency injection works
+I created a Alien class and laptop class and learnt that by using spring we don't need to create and manage objects manually spring boot will take care of them
+Learnt about annotations like Component and Autowired
+In the next project we'll learn in detail about beans and what is done in background of this springboot project code.
