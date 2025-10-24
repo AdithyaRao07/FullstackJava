@@ -7,7 +7,8 @@
 
     <!-- Define Alien Bean -->
     <bean id="alien" class="com.example.spring.Alien" scope="prototype">
-    <property name="age" value="10"></property>
+   <!-- <property name="age" value="10"></property> -->
+        <constructor-arg value="15"></constructor-arg>
         <property name="laptop" ref="laptop"></property>
     </bean>
     <bean id="laptop" class="com.example.spring.Laptop"></bean>
